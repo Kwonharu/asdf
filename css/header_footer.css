@@ -1,0 +1,84 @@
+.header{
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flow-root;
+}
+
+.header .header_c1{
+    margin: 0 auto;
+    height: 30px;
+    width: 1050px;
+    border: 1px solid red;
+    box-sizing: border-box;
+
+}
+.header .header_c1 .header_c1_left{
+    float: left;
+    display: flow-root;
+}
+.header .header_c1 .header_c1_left > li{
+    float: left;
+    margin-right: 10px;
+}
+.header .header_c1 .header_c1_right{
+    float: right;
+    display: flow-root;
+}
+.header .header_c1 .header_c1_right > li{
+    float: right;
+    margin-left: 10px;
+}
+
+.header .header_c2{
+    margin: 0 auto;
+    height: 130px;
+    width: 1050px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    display: flow-root;
+}
+.header .header_c2 .header_c2_logo{
+    width: 200px;
+    height: 80px;
+    float: left;
+    margin: 22px 20px;
+}
+.header .header_c2 .header_c2_serch{
+    width: 300px;
+    display: flow-root;
+    float: left;
+    margin: 0 auto;
+    height: 130px;
+}
+.header .header_c2 .header_c2_serch > input{
+    width: 250px;
+    height: 30px;
+    margin:0 auto;
+}
+.header .header_c2 .header_c2_serch > *{
+    float: left;
+}
+.header .header_c2 .header_c2_menu > li{
+    float: right;
+    margin-right: 10px;
+}
+
+.header .header_c3{
+    margin: 0 auto;
+    height: 50px;
+    width: 1050px;
+    border: 1px solid seagreen;
+    box-sizing: border-box;
+}
+
+.header .header_c3 .header_c3_menu{
+    margin: 0 auto;
+    background-color: aquamarine;
+    display: flow-root;
+    float: left;
+}
+.header .header_c3 .header_c3_menu > li{
+    margin: 0 20px;
+    float: left;
+}
+
